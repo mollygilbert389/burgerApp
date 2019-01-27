@@ -29,7 +29,7 @@ $(function() {
   
       var newBurger = {
         name: $("#ca").val().trim(),
-        eaten: $("[name=eaten]:checked").val().trim()
+        // eaten: $("[name=eaten]:checked").val().trim()
       };
   
       $.ajax("/api/burgers", {
@@ -43,5 +43,22 @@ $(function() {
         }
       );
     });
+
+    $(".reset-form").on("submit", function (event) {
+        // Make sure to preventDefault on a submit event.
+        event.preventDefault();
+
+        // Send the POST request.
+        $.ajax("/api/reset", {
+            type: "PUT"
+        }).then(
+            function () {
+                console.log("Reset all burgers");
+                // Reload the page to get the updated list
+                location.reload();
+            }
+        )
+    });
+
   });
   
