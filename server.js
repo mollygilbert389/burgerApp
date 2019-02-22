@@ -1,4 +1,6 @@
 var express = require("express");
+require('dotenv').config();
+
 
 var PORT = process.env.PORT || 8080;
 
@@ -20,4 +22,5 @@ app.use(routes);
 
 app.listen(PORT, function() {
   console.log("Server listening on: http://localhost:" + PORT);
+  console.log (process.env.jawsURL)
 });
