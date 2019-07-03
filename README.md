@@ -8,11 +8,13 @@ You will need MAMP and MySQL to run the database. With those you can pull down t
 
 <h2> Dependencies </h2>
 
-dotenv
-express
-express-handlebars
-handlebars
-mysql
+<ul>
+  <li>dotenv</li>
+<li>express</li>
+<li>express-handlebars</li>
+<li>handlebars</li>
+<li>mysql</li>
+</ul>
 
 <h2> Deployment </h2>
 
