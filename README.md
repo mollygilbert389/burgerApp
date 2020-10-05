@@ -30,8 +30,6 @@ This is deployed on heroku. I used the free JawsDB plug-in for the database depl
 <img width="1096" alt="Screen Shot 2019-04-22 at 2 46 10 PM" src="https://user-images.githubusercontent.com/29104770/56518451-7ac19d00-650d-11e9-8ae9-e92c82686f18.png">
 ## License
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-## Tests
-N/A
 ## Questions
 Please see my github: [Gihub Profile](https://github.com/mollygilbert389)
 <br>You can ask me questions here: msgilbert389@gmail.com
