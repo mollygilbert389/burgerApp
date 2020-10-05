@@ -6,8 +6,6 @@
 * [Dependencies](#dependencies)
 * [Deployment](#deployment)
 * [License](#license)
-* [Contributors](#contributors)
-* [Tests](#tests)
 * [Questions](#questions)
 ## Description
 This app was created using SQL, JavaScript, CSS, Handlebars, and uses an ORM database structure. In this app you can add a burger to the database then click the devour button to change the status of the burger to devoured. You can then reset all the burgers in the database to be devoured again. 
